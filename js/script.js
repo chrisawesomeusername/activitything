@@ -17,5 +17,5 @@ document.getElementById('user1Total').addEventListener('click',function(){
   var user1Total = user1HourA + user1HourB + user1HourC + user1HourD + user1HourE;
   console.log(user1Total);
 
-  document.getElementById('user1Result').innerHTML = '<p>' + user1Total +'</p>';
+  document.getElementById('user1Result').value = user1Total;
 })
